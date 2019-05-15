@@ -1,0 +1,95 @@
+@charset "utf-8";
+<style type="text/css">
+	*{
+	margin: 0;
+	padding: 0;
+	}
+.header{
+	width: 100%;
+	background-color: #3a3a3a;
+}
+.header img{
+	width:1500px;
+	}
+.nav {
+	padding-top:1px;
+	padding-bottom:16px;
+	height: 52px;
+	background-color: #323232;
+	width:100%;	
+}
+
+	
+.nav ul{
+	list-style: none;
+	position: relative;
+	top:0px;
+	left:300px;
+	
+
+}
+.nav ul li{
+	float:left;
+	width: 120px;
+	line-height: 52px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gwidth{
+	background-color: #0FF;
+	}
+.nav ul a{
+	color:#FFF;
+	}
+ .nav li a:link{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.nav ul li a:hover{
+	color:#3c3;}
+.banner{
+	background-color:#666;
+	width:1000px;
+	margin:0 auto;
+	}
+.banner img{
+	width: 1000px;
+	
+	}
+	.nr{
+		width: 600px;
+		
+		border:2px dotted gray;
+		margin: 20px;
+		padding: 20px;
+
+		margin-left: auto;
+	margin-right: auto;
+
+	}
+	.nr h1{
+		color: black;
+		margin-left: auto;
+	    margin-right: auto;
+
+	}
+	.nr h3{
+	
+
+		color: red;
+		margin-left: auto;
+	margin-right: auto;
+
+	}
+	.nr h2{
+		color:black;
+		margin-left: auto;
+	margin-right: auto;
+
+	}
+
+</style>/* CSS Document */
+

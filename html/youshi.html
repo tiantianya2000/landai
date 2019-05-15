@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>品牌优势</title>
+<link rel="stylesheet" href="../css/youshi.css"/>
+</head>
+<body>
+		<div class="header">
+		<img src="../tp/1.png">
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="pinpai.html">品牌故事</a></li>
+			<li><a href="zuopin.html">作品展示</a></li>
+			<li><a href="fuwu.html">服务报价</a></li>
+			<li><a href="zuixin.html">最新活动</a></li>
+			<li class="gwidth"><a href="youshi.html">品牌优势</a></li>
+			<li><a href="lianxi.html">联系我们</a></li>
+            <li><a href="miaosha.html">秒杀专场</a></li>
+		</ul>
+</div>
+<input type="button" value="开始计数" onclick="startCount()" />
+<input type="text" id="num" />
+<input type="button" value="停止计数" onblur="stopCount()" />
+<script>
+	var timer=null,c=0;
+	function timedCount(){
+		document.getElementById('num').value=c;
+		++c;
+		}
+	function startCount(){
+		timer=setIntervar(timedCount,1000);
+		}
+	function stopCount(){
+		clearInterval(timer);
+		}
+</script>
+<div class="banner">
+	<a href=""></a><img src="../tp/3.png">
+</div>
+
+<div class="wz">
+	<h1>BRAND ADVANTAGE</h1>
+	<h1>品牌优势</h1><br/>
+	<p>兰黛携手国际国内巨星御用摄影师，为娱乐圈明星艺人打造时尚大片。</p>
+
+</div>
+<div class="ww">
+	<h1>200 or more senior team</h1>
+	<h3>200名以上资深团队</h3><br/>
+	<p>每家店拥有200名资深的摄影师、化妆师，为古装艺术写真的拍摄提供了坚实的技术保障。</p>
+
+</div>
+<script type="text/javascript" src="../js/youshi.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,93 @@
+@charset "utf-8";
+<style type="text/css">
+	*{
+	margin: 0;
+	padding: 0;
+	}
+
+.header{
+	width: 100%;
+	background-color: #3a3a3a;
+}
+.header img{
+	width:1500px;}
+.nav {	
+	height: 52px;
+	background-color: #323232;
+	width:100%;	
+	padding-bottom:16px;
+	padding-top:1px;
+}
+
+	
+.nav ul{
+	list-style: none;
+	position: relative;
+	top:0px;
+	left:300px;
+	
+
+}
+.nav ul li{
+	float:left;
+	width: 120px;
+	line-height: 52px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gwidth{
+	background-color: #0FF;
+	}
+.nav ul a{
+	color:#FFF;
+	}
+ .nav li a:link{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.nav ul li a:hover{
+	color:#3c3;}
+.box1{
+	width:50px;
+	margin:0 auto;}
+.box1 p{
+	width:200px;
+	}
+
+.banner img{
+	width: 100%;
+
+}
+
+.gwidth2 img{
+	margin:20px;
+	padding: 20px;
+	
+	position: relative;
+	top:0px;
+	left:300px;
+}
+.wz p{
+	width: 260px;
+	position: absolute;
+	top:875px;
+	left:330px;
+}
+.ww p{
+	width: 260px;
+	position: absolute;
+top: 875px;
+ left:650px;
+}
+.zz p{
+	width: 260px;
+	position: absolute;
+top: 870px;
+ left:980px;
+}
+
+</style>/* CSS Document */
+
